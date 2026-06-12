@@ -1,0 +1,6 @@
+# Add these dependencies under 'dependencies' section in your pubspec.yaml file
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.0.0
+  camera: ^0.10.5+5
