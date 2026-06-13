@@ -67,7 +67,7 @@ class _CameraQuestScreenState extends State<CameraQuestScreen> {
 
     try {
       XFile file = await _controller!.takePicture();
-      await Future.delayed(const Duration(seconds: 2)); // AI simulation delay
+      await Future.delayed(const Duration(seconds: 2)); 
 
       setState(() {
         _capturedImagePath = file.path;
